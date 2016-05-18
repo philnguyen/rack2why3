@@ -18,13 +18,13 @@ To run this project, you need to have installed:
 
 #### Set up this project
 
-* Make sure Racket is in your path
+* Make sure Racket binaries such as `racket` and `raco` are in your path
 * Clone this repository
 * Compile this project:
 ```{bash}
 cd path-to-this-project/src
 raco link .
-raco make cmdline.rkt
+raco make cmdline.rkt  # This will take a while
 ```
 
 * File `test/examples.rkt` contains examples. To compile it to `examples.mlw`, run:
